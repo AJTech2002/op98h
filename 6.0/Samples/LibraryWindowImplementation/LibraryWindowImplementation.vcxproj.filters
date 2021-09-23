@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="LibraryWindowImplPlugin.cpp" />
+    <ClCompile Include="classes\APIStorage.cpp">
+      <Filter>CloApiData</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\APISearchDialogSample.cpp">
+      <Filter>Ui_SearchDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\APISignInDialogSample.cpp">
+      <Filter>Ui_SignInDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\APIUtility.cpp">
+      <Filter>CloApiCommon</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>VS_generated</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>VS_generated</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\PLMSettingsSample.cpp">
+      <Filter>Ui_PLM_Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_CLOFormat.cpp">
+      <Filter>Qt_generated</Filter>
+    </ClCompile>
+    <ClCompile Include="classes\PLMSettingDataSample.cpp">
+      <Filter>Ui_PLM_Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_APISearchDialogSample.cpp">
+      <Filter>Qt_generated</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_APISignInDialogSample.cpp">
+      <Filter>Qt_generated</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\moc_PLMSettingsSample.cpp">
+      <Filter>Qt_generated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LibraryWindowImplPlugin.h" />
+    <ClInclude Include="classes\APICLODataBase.h">
+      <Filter>CloApiData</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\APIStorage.h">
+      <Filter>CloApiData</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\APIDefine.h">
+      <Filter>CloApiCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\APIUtility.h">
+      <Filter>CloApiCommon</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>VS_generated</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>VS_generated</Filter>
+    </ClInclude>
+    <ClInclude Include="classes\PLMSettingDataSample.h">
+      <Filter>Ui_PLM_Settings</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="classes\APISearchDialogSample.h">
+      <Filter>Ui_SearchDialog</Filter>
+    </QtMoc>
+    <QtUic Include="classes\APISearchDialogSample.ui">
+      <Filter>Ui_SearchDialog</Filter>
+    </QtUic>
+    <QtMoc Include="classes\APISignInDialogSample.h">
+      <Filter>Ui_SignInDialog</Filter>
+    </QtMoc>
+    <QtUic Include="classes\APISignInDialogSample.ui">
+      <Filter>Ui_SignInDialog</Filter>
+    </QtUic>
+    <QtMoc Include="classes\PLMSettingsSample.h">
+      <Filter>Ui_PLM_Settings</Filter>
+    </QtMoc>
+    <QtUic Include="classes\PLMSettingsSample.ui">
+      <Filter>Ui_PLM_Settings</Filter>
+    </QtUic>
+    <QtRcc Include="classes\CLOFormat.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Ui_SignInDialog">
+      <UniqueIdentifier>{fdef20b5-3d79-4e61-a368-e3f2c6e0b79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui_SearchDialog">
+      <UniqueIdentifier>{df831e9f-458b-402a-8927-b4ceabba6dd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CloApiData">
+      <UniqueIdentifier>{58a28b49-1a2e-411c-b858-1594718f221c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CloApiCommon">
+      <UniqueIdentifier>{a31ba145-027b-4270-9cc1-783a1069768d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VS_generated">
+      <UniqueIdentifier>{bd0ac53a-ee00-47a0-ad1e-6b6cd1aab4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Qt_generated">
+      <UniqueIdentifier>{0d4bbc49-9bf5-434e-b8d9-fcb45728015d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ui_PLM_Settings">
+      <UniqueIdentifier>{d8e720e4-6a77-4901-8918-bb144d78f398}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
